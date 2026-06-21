@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load Data
-df = pd.read_csv("D:\Projects Personal\python_project\data\shopify_sales_dataset_ml_eda_clean.csv")
+df = pd.read_csv("data\shopify_sales_dataset_ml_eda_clean.csv")
 
 df["order_date"] = pd.to_datetime(df["order_date"])
 
